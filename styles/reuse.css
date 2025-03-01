@@ -1,0 +1,120 @@
+.paragraph {
+  display: block;
+  font-size: 1.4rem;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.btn {
+  border: none;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  padding: 1.2rem 2.4rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.heading-1 {
+  font-size: 8.6rem;
+  font-weight: 400;
+}
+
+.heading-2 {
+  font-size: 7.4rem;
+  font-weight: 400;
+}
+.heading-3 {
+  font-size: 6.2rem;
+  font-weight: 400;
+}
+.heading-4 {
+  font-size: 5.2rem;
+  font-weight: 400;
+}
+.heading-5 {
+  font-size: 4.4rem;
+  font-weight: 400;
+}
+.heading-6 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-family: var(--secondary-font);
+}
+.heading-7 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+}
+.heading-8 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.start {
+  align-self: flex-start;
+}
+
+.center {
+  align-self: center;
+}
+
+.lh {
+  line-height: 0.9;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.4;
+}
+
+.lh-3 {
+  line-height: 1.1;
+}
+
+.mb-s {
+  margin-bottom: 0.8rem;
+}
+
+.mb-1 {
+  margin-bottom: 1.2rem;
+}
+
+.mb-2 {
+  margin-bottom: 4.8rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.8rem;
+}
+
+.mb-4 {
+  margin-bottom: 3.6rem;
+}
+
+.mb-l {
+  margin-bottom: 6.4rem;
+}
+
+.btn--white {
+  background-color: #fff;
+  border: 1.5px solid black;
+  color: black;
+}
+
+.btn--black {
+  background-color: #000;
+  color: #fff;
+}
+
+.-white {
+  color: #fff;
+}

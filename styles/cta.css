@@ -1,0 +1,47 @@
+.section-cta {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4.8rem; */
+  margin: 0 4.8rem;
+  justify-items: space-between;
+  margin-bottom: 6.4rem;
+}
+
+.section-cta__content {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.section-cta__content-left {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.section-cta__image {
+  background-image: url(./../img/image-4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  width: 40vw;
+  height: 45vw;
+  flex-grow: 1;
+  border-top: 50px solid white;
+  border-bottom: 70px solid white;
+}
+
+.section-cta__content-right {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

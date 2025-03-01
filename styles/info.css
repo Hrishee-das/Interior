@@ -1,0 +1,18 @@
+.section-info {
+  display: flex;
+  margin: 0 4.8rem;
+  gap: 6.4rem;
+  align-items: center;
+  margin-bottom: 8.6rem;
+}
+
+.section-info__image {
+  width: 45vw;
+  height: 45vw;
+}
+
+.section-info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
